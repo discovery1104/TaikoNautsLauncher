@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.log
+.idea/
+.vscode/
+
+# Local launcher state
+launcher_settings.json
+
+# Cython/PyInstaller intermediates
+build/launcher_core.pyx
+build/launcher_core.c
+build/launcher_core*.pyd
+build/TaikoNautsLauncher.ico
+build/build/
+build/pyinstaller_work/
+
+# Local packaging scratch
+*.spec.bak
